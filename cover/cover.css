@@ -1,0 +1,312 @@
+/*
+ * Globals
+ */
+
+/* Links */
+/* a, */
+a {
+  color: #ba6f1c;
+}
+span a{
+  text-decoration: underline;
+}
+a:focus,
+a:hover {
+  color: #ffffff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+ .btn {
+  border: solid 2px black;
+  border-style: ridge;
+  background-color: #ccc;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  /* background-color: rgba(57, 69, 83, 1); */
+  background-color: #292a2f;
+  background-color: #ffffff;
+  font-family: 'Google Sans', sans-serif;
+  position: relative;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  position: relative;
+}
+
+
+.cover-container {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 10rem 0;
+}
+
+
+/*
+ * Header
+ */
+
+ .navbar {
+  overflow: hidden;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* box-shadow: inset 0 0 2rem rgba(0, 0, 0, .5); */
+  margin-right: 2rem;
+}
+
+.masthead {
+  margin-bottom: 1rem;
+}
+
+
+.nav-link {
+  padding: .25rem 0;
+  color: #292a2f;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  margin: 1em 2em;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom-color: rgba(0, 0, 0, .25);
+  color: rgba(193, 133, 3, 1);
+}
+
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: left;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+
+/*
+ * Cover
+ */
+ td {
+   vertical-align: top;
+   text-align: left;
+ }
+
+ h5 {
+   vertical-align: top;
+   text-align: left;
+   font-family: 'Product Sans', sans-serif;
+   padding: 0 0 2rem 1rem;
+   font-weight: bold;
+   color: #ba6f1c;
+ }
+.cover {
+  padding: 8rem 2rem 5rem 2rem ;
+  max-width: 100%;
+  height: 100%;
+  /* background-image: url("../IMG_20180705_202126 (2).jpg"); */
+  background-image: url("../logos/613.jpg");
+  background-size: cover;
+  background-blend-mode: soft-light;
+  text-align: left;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.code {
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+
+.description {
+  width:33%;
+  height: auto;
+  padding: 1em 1em 1em 1em;
+  background-color: rgba(150, 169, 183, 0.5);
+  border: solid 0px antiquewhite;
+  border-radius: 10px;
+}
+
+
+.aboutme span{
+  font-size: 14px;
+  /* text-shadow: none; */
+}
+
+.aboutme {
+  margin-top: 5em;
+  padding-top: 10em;
+  color: #000;
+}
+
+
+.experience {
+  margin-top: 5em;
+  padding-top: 10em;
+  height:auto;
+  color: #000;
+}
+
+.experience span{
+  font-size: 14px;
+}
+
+
+.projects {
+  margin-top: 5em;
+  padding-top: 10em;
+  color: #000;
+}
+
+.projects span{
+  font-size: 14px;
+  /* text-shadow: none; */
+}
+
+/* Hover */
+/* Zoom In #1 */
+.project {
+  border: 0 solid rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.project:hover {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+  border-radius: 5px;
+}
+
+.interests {
+  margin-top: 5em;
+  padding-top: 10em;
+  height:auto;
+  color: #000;
+}
+
+.interests span{
+  font-size: 14px;
+  /* text-shadow: none; */
+}
+
+
+.publications {
+  margin-top: 5em;
+  padding-top: 5em;
+  height:auto;
+  color: #000;
+}
+
+.publications a{
+  text-decoration: underline;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .25);
+  text-align: center;
+}
+
+/*
+ * Social Media Buttons Styling
+ */
+
+.fa {
+    padding: 1em;
+    font-size: 1em;
+    width: 3em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 1em 1em;
+
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+.logo {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+    -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+   text-decoration: none;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
