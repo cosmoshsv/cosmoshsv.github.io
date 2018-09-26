@@ -5,14 +5,19 @@
 /* Links */
 /* a, */
 a {
-  color: #ba6f1c;
+  color: #990000;
 }
 span a{
   text-decoration: underline;
 }
 a:focus,
 a:hover {
-  color: #ffffff;
+  color: #dd0000;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .25);
+}
+
+.contact a:focus, a:hover{
+  color: #fff;
 }
 
 /* Custom default button */
@@ -54,6 +59,10 @@ body {
   position: relative;
 }
 
+body span{
+  text-shadow: none;
+}
+
 
 .cover-container {
   width: 100%;
@@ -82,15 +91,15 @@ body {
   padding: .25rem 0;
   color: #292a2f;
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
-  margin: 1em 2em;
+  border-bottom: .5rem solid transparent;
+  margin: 0 2em;
   text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   border-bottom-color: rgba(0, 0, 0, .25);
-  color: rgba(193, 133, 3, 1);
+  color: #990000;
 }
 
 
@@ -134,13 +143,12 @@ body {
    font-family: 'Product Sans', sans-serif;
    padding: 0 0 2rem 1rem;
    font-weight: bold;
-   color: #ba6f1c;
+   color: #990000;
  }
 .cover {
   padding: 8rem 2rem 5rem 2rem ;
   max-width: 100%;
   height: 100%;
-  /* background-image: url("../IMG_20180705_202126 (2).jpg"); */
   background-image: url("logos/613.jpg");
   background-size: cover;
   background-blend-mode: soft-light;
@@ -169,6 +177,9 @@ body {
 
 .aboutme span{
   font-size: 14px;
+  /*font-family: 'Noto Serif JP', sans-serif;*/
+
+
   /* text-shadow: none; */
 }
 
@@ -188,6 +199,9 @@ body {
 
 .experience span{
   font-size: 14px;
+  /*font-family: 'Noto Serif JP', sans-serif;*/
+
+
 }
 
 
@@ -199,6 +213,9 @@ body {
 
 .projects span{
   font-size: 14px;
+  /*font-family: 'Noto Serif JP', sans-serif;*/
+
+
   /* text-shadow: none; */
 }
 
@@ -224,11 +241,14 @@ body {
 
 .interests span{
   font-size: 14px;
+  /*font-family: 'Noto Serif JP', sans-serif;*/
+
+
   /* text-shadow: none; */
 }
 
 
-.publications {
+.writings {
   margin-top: 5em;
   padding-top: 5em;
   height:auto;
@@ -236,12 +256,16 @@ body {
 }
 
 
-.publications a{
+.writings a{
   text-decoration: underline;
 }
 
-.publications span{
+
+.writings span{
   font-size: 14px;
+  /*font-family: 'Noto Serif JP', sans-serif;*/
+
+
 }
 
 /*
@@ -287,6 +311,7 @@ body {
    -ms-filter: none;
    filter: none;
    text-decoration: none;
+   text-shadow: none;
 }
 
 
@@ -314,4 +339,24 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #990000; /* Set a background color */
+    color: white; /* Text color #FFC72C */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }
