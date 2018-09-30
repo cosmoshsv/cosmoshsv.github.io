@@ -352,8 +352,8 @@ body span{
     background-color: #990000; /* Set a background color */
     color: white; /* Text color #FFC72C */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 12px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
 
