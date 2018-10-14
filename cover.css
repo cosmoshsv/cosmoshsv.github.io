@@ -10,6 +10,8 @@ a {
 span a{
   text-decoration: underline;
 }
+
+
 a:focus,
 a:hover {
   color: #dd0000;
@@ -178,8 +180,6 @@ body span{
 .aboutme span{
   font-size: 14px;
   /*font-family: 'Noto Serif JP', sans-serif;*/
-
-
   /* text-shadow: none; */
 }
 
@@ -187,6 +187,11 @@ body span{
   margin-top: 5em;
   padding-top: 10em;
   color: #000;
+}
+
+.aboutme a:focus, a:hover{
+  color: #dd0000;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .25);
 }
 
 
@@ -204,6 +209,11 @@ body span{
 
 }
 
+.experience a:focus, a:hover{
+  color: #dd0000;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .25);
+}
+
 
 .projects {
   margin-top: 5em;
@@ -213,10 +223,11 @@ body span{
 
 .projects span{
   font-size: 14px;
-  /*font-family: 'Noto Serif JP', sans-serif;*/
+}
 
-
-  /* text-shadow: none; */
+.projects a:focus, a:hover{
+  color: #dd0000;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .25);
 }
 
 /* Hover */
@@ -241,10 +252,11 @@ body span{
 
 .interests span{
   font-size: 14px;
-  /*font-family: 'Noto Serif JP', sans-serif;*/
+}
 
-
-  /* text-shadow: none; */
+.interests a:focus, a:hover{
+  color: #dd0000;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .25);
 }
 
 
@@ -263,9 +275,11 @@ body span{
 
 .writings span{
   font-size: 14px;
-  /*font-family: 'Noto Serif JP', sans-serif;*/
+}
 
-
+.writings a:focus, a:hover{
+  color: #dd0000;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .25);
 }
 
 /*
